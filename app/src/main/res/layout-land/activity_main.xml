@@ -9,7 +9,6 @@
     android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    <!-- Guideline для адаптивности -->
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
@@ -19,8 +18,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="@dimen/layout_width"
-        android:layout_height="@dimen/layout_height"
+        android:layout_width="@dimen/layout_land_width"
+        android:layout_height="@dimen/layout_land_height"
         android:layout_margin="@dimen/image_margin"
         android:background="#F5F5F5"
         android:contentDescription="@string/image_content_description"
@@ -28,7 +27,8 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
 
     <TextView
         android:id="@+id/NameArt"
@@ -50,16 +50,17 @@
         android:id="@+id/Autor"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/author_top_margin"
         android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/author_top_margin"
         android:layout_marginEnd="@dimen/margin_medium"
-        android:text=""
-        android:textSize="@dimen/text_size_medium"
         android:gravity="center"
+        android:text=""
         android:textColor="#666666"
-        app:layout_constraintTop_toBottomOf="@+id/NameArt"
+        android:textSize="@dimen/text_size_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/NameArt" />
 
     <LinearLayout
         android:id="@+id/buttonsLayout"

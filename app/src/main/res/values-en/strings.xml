@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Общие строки -->
+    <string name="app_name">Art Gallery</string>
+    <string name="back_button">Previous</string>
+    <string name="next_button">Next</string>
+
+    <!-- Картина 1: Девочка с персиками -->
+    <string name="artwork1_title">Girl with Peaches</string>
+    <string name="artwork1_author">Valentin Serov</string>
+
+
+    <!-- Картина 2: Переход через Альпы -->
+    <string name="artwork2_title">Suvorov Crossing the Alps</string>
+    <string name="artwork2_author">Vasily Surikov</string>
+
+
+    <!-- Картина 3: Тройка -->
+    <string name="artwork3_title">Troika. Apprentices Fetching Water</string>
+    <string name="artwork3_author">Vasily Perov</string>
+
+
+    <!-- Картина 4: Троица -->
+    <string name="artwork4_title">The Trinity</string>
+    <string name="artwork4_author">Andrei Rublev</string>
+
+
+    <!-- Картина 5: Пётр Великий -->
+    <string name="artwork5_title">Peter the Great</string>
+    <string name="artwork5_author">Valentin Serov</string>
+
+    <!-- Accessibility -->
+    <string name="image_content_description">Picture Image: %1$s, author: %2$s</string>
+    <string name="previous_button_description">Go to the previous picture</string>
+    <string name="next_button_description">Go to the next picture</string>
+    <string name="previous_button_tooltip">Previous picture</string>
+    <string name="next_button_tooltip">Next picture</string>
+
+
+
+</resources>

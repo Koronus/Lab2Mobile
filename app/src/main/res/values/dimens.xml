@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Отступы  -->
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+
+    <!-- Размеры изображения -->
+    <dimen name="layout_width">362dp</dimen>
+    <dimen name="layout_height">387dp</dimen>
+
+    <!-- Размеры изображения в альбомном виде-->
+    <dimen name="layout_land_width">373dp</dimen>
+    <dimen name="layout_land_height">191dp</dimen>
+
+
+    <!-- Размеры текста -->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_xlarge">24sp</dimen>
+
+
+    <dimen name="image_margin">10dp</dimen>
+    <dimen name="image_corner_radius">8dp</dimen>
+    <dimen name="title_top_margin">16dp</dimen>
+    <dimen name="author_top_margin">8dp</dimen>
+    <dimen name="buttons_top_margin">24dp</dimen>
+    <dimen name="buttons_bottom_margin">32dp</dimen>
+    <dimen name="button_spacing">16dp</dimen>
+    <dimen name="button_min_width">120dp</dimen>
+
+    <!-- Guideline процент -->
+    <dimen name="guideline_percent">0.6</dimen>
+</resources>
