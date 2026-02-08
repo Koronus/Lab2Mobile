@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Общие строки -->
+    <string name="app_name">Художественная галлерея</string>
+    <string name="back_button">Предыдущий</string>
+    <string name="next_button">Следующий</string>
+
+
+    <!-- Картина 1: Девочка с персиками -->
+    <string name="artwork1_title">Девочка с персиками</string>
+    <string name="artwork1_author">Валентин Серов</string>
+
+
+    <!-- Картина 2: Переход через Альпы -->
+    <string name="artwork2_title">Переход Суворова через Альпы</string>
+    <string name="artwork2_author">Василий Суриков</string>
+
+
+    <!-- Картина 3: Тройка -->
+    <string name="artwork3_title">Тройка. Ученики идут за водой</string>
+    <string name="artwork3_author">Василий Перов</string>
+
+
+    <!-- Картина 4: Троица -->
+    <string name="artwork4_title">Троица</string>
+    <string name="artwork4_author">Андрей Рублёв</string>
+
+
+    <!-- Картина 5: Пётр Великий -->
+    <string name="artwork5_title">Петр Великий</string>
+    <string name="artwork5_author">Валентин Серов</string>
+
+    <!-- Accessibility -->
+    <string name="image_content_description">Изображение картины: %1$s, автор: %2$s</string>
+    <string name="previous_button_description">Перейти к предыдущей картине</string>
+    <string name="next_button_description">Перейти к следующей картине</string>
+    <string name="previous_button_tooltip">Предыдущая картина</string>
+    <string name="next_button_tooltip">Следующая картина</string>
+
+
+
+</resources>

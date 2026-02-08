@@ -1,10 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Общие строки -->
     <string name="app_name">Art Gallery</string>
     <string name="back_button">Previous</string>
     <string name="next_button">Next</string>
-
-
 
     <!-- Картина 1: Девочка с персиками -->
     <string name="artwork1_title">Girl with Peaches</string>
@@ -36,7 +35,6 @@
     <string name="next_button_description">Go to the next picture</string>
     <string name="previous_button_tooltip">Previous picture</string>
     <string name="next_button_tooltip">Next picture</string>
-
 
 
 
